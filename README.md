@@ -15,15 +15,16 @@ Open `http://localhost:3000` in a browser. The server expects an `index.html` at
 
 ## Project documents
 
-- `context.md` — business background and known facts/data limitations.
-- `briefing.md` — assignment overview and evaluation emphasis.
-- `spec.md` — normative requirements and acceptance/verification checks.
-- `data-contract.md` — prepared local dataset shape and future connector boundary.
+- `docs/context.md` — business background and known facts/data limitations.
+- `docs/briefing.md` — assignment overview and evaluation emphasis.
+- `docs/spec.md` — normative requirements and acceptance/verification checks.
+- `docs/data-contract.md` — prepared local dataset shape and future connector boundary.
 - `data/sample-data.csv` — canonical sample performance records used to prepare the static dashboard content.
-- `plan.md` — implementation approach and architecture.
-- `tasks.md` — small, verifiable work units for the Specify–Plan–Tasks–Implement–Verify workflow.
+- `docs/plan.md` — implementation approach and architecture.
+- `docs/tasks.md` — small, verifiable work units for the Specify–Plan–Tasks–Implement–Verify workflow.
+- `docs/verification-report.md` — executed checks, their pass/pending status, and validation limitations.
 - `AGENTS.md` — persistent instructions for AI coding assistants.
 
 ## Scope and data
 
-The initial dashboard uses a prepared local dataset; it does not connect to social-media platforms. The influencer earns 15% commission per sale: Product A (€50) = €7.50, Product B (€120) = €18.00, and Product C (€80) = €12.00. Since actual campaign, sales, reach, engagement, and advertising-cost data has not been provided, prepared figures are sample data. ROI must not be presented as factual without cost data. Future connector work is documented in `context.md` and `data-contract.md`.
+The initial dashboard uses a prepared local dataset; it does not connect to social-media platforms. The influencer earns 15% commission per sale: Product A (€50) = €7.50, Product B (€120) = €18.00, and Product C (€80) = €12.00. Since actual campaign, sales, reach, engagement, and advertising-cost data has not been provided, prepared figures are sample data. ROI must not be presented as factual without cost data. Future connector work is documented in `docs/context.md` and `docs/data-contract.md`.
