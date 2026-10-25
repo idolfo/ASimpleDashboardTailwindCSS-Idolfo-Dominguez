@@ -1,0 +1,10 @@
+period_start,period_end,data_status,currency,product_id,product_name,unit_price_eur,commission_rate,platform,campaign_id,campaign_name,reach,impressions,likes,comments,shares,saves,interactions,clicks,conversions,ad_cost_eur
+2026-09-01,2026-09-30,sample,EUR,A,Product A,50.00,0.15,Instagram,IG-A-01,Autumn Picks - A,12500,18200,720,54,88,112,974,460,28,
+2026-09-01,2026-09-30,sample,EUR,B,Product B,120.00,0.15,Instagram,IG-B-01,Autumn Picks - B,9800,14700,610,42,72,96,820,390,21,
+2026-09-01,2026-09-30,sample,EUR,C,Product C,80.00,0.15,Instagram,IG-C-01,Autumn Picks - C,11000,16300,680,48,81,105,914,430,25,
+2026-09-01,2026-09-30,sample,EUR,A,Product A,50.00,0.15,TikTok,TT-A-01,Creator Finds - A,22000,34100,1480,112,215,164,1971,890,62,
+2026-09-01,2026-09-30,sample,EUR,B,Product B,120.00,0.15,TikTok,TT-B-01,Creator Finds - B,18500,28600,1190,94,178,146,1608,760,54,
+2026-09-01,2026-09-30,sample,EUR,C,Product C,80.00,0.15,TikTok,TT-C-01,Creator Finds - C,20500,31900,1370,103,196,157,1826,840,59,
+2026-09-01,2026-09-30,sample,EUR,A,Product A,50.00,0.15,YouTube,YT-A-01,Monthly Review - A,8400,12600,390,38,46,72,546,260,18,
+2026-09-01,2026-09-30,sample,EUR,B,Product B,120.00,0.15,YouTube,YT-B-01,Monthly Review - B,7600,11800,340,31,39,64,474,230,17,
+2026-09-01,2026-09-30,sample,EUR,C,Product C,80.00,0.15,YouTube,YT-C-01,Monthly Review - C,8100,12200,370,34,42,68,514,245,16,

@@ -1,41 +1,29 @@
-# HTML Hello
+# Influencer Performance Dashboard
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+A static, mobile-first dashboard concept for reviewing an influencer's marketing performance across products and social platforms. The project is implemented with semantic HTML and **Tailwind CSS v4**.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## Run locally
 
-## What to do next?
-
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+This starter repository includes a small Flask development server. Install Flask if needed, then run:
 
 ```bash
-$ pip3 install flask && python3 server.py
+python3 -m pip install flask
+python3 server.py
 ```
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+Open `http://localhost:3000` in a browser. The server expects an `index.html` at the repository root. The page loads Tailwind CSS v4 from its browser CDN, so an internet connection is needed for Tailwind styling.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Project documents
 
-- If you want to use Tailwind CSS, add it optionally via the official Tailwind CSS v4 CDN inside the same `<head>`:
+- `context.md` — business background and known facts/data limitations.
+- `briefing.md` — assignment overview and evaluation emphasis.
+- `spec.md` — normative requirements and acceptance/verification checks.
+- `data-contract.md` — prepared local dataset shape and future connector boundary.
+- `data/sample-data.csv` — canonical sample performance records used to prepare the static dashboard content.
+- `plan.md` — implementation approach and architecture.
+- `tasks.md` — small, verifiable work units for the Specify–Plan–Tasks–Implement–Verify workflow.
+- `AGENTS.md` — persistent instructions for AI coding assistants.
 
-```html
-<head>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Scope and data
 
-### Contributors
-
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+The initial dashboard uses a prepared local dataset; it does not connect to social-media platforms. The influencer earns 15% commission per sale: Product A (€50) = €7.50, Product B (€120) = €18.00, and Product C (€80) = €12.00. Since actual campaign, sales, reach, engagement, and advertising-cost data has not been provided, prepared figures are sample data. ROI must not be presented as factual without cost data. Future connector work is documented in `context.md` and `data-contract.md`.
